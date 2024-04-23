@@ -1,0 +1,19 @@
+
+
+/* zoom effect for videos  */
+.hover-zoom {
+    transition: transform 0.3s ease;
+  }
+
+  .hover-zoom:hover {
+    transform: scale(1.1); /* Increase scale value to zoom in further */
+  }
+
+  .bg-gray{
+    background-color: rgb(245, 245, 234);
+  }
+
+    /* Override Bootstrap's link underline */
+    .no-underline-link {
+    text-decoration: none !important;
+    }

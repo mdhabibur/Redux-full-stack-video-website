@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* our custom css  */
+
+/* header  */
+.header-logo-width{
+  width: 150px;
+}
+
+/* footer  */
+.footer-background-color{
+  background-color: #4e5051;
+}
+
+
+/* zoom effect for videos  */
+.hover-zoom {
+  transition: transform 0.3s ease;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.1); /* Increase scale value to zoom in further */
+}
+
+.bg-gray{
+  background-color: rgb(245, 245, 234);
+}
+
+  /* Override Bootstrap's link underline */
+.no-underline-link {
+text-decoration: none !important;
+}
+
+
+.errorMessage{
+background-color: rgb(64, 0, 124);
+color: red;
+font-size: 20px;
+font-size: larger;
+font-weight: bold;
+text-align: center;
+border: 3px solid black;
+border-radius: 10px;
+margin-left:20px;
+margin-right: 20px;
+}
+
+.successMessage{
+  background-color: rgb(226, 249, 19);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-left:20px;
+  margin-right: 20px;
+  }
