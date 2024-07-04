@@ -32,7 +32,7 @@ const Footer = () => {
 
                 <ul className="list-unstyled mb-0 pb-2">
                         <li className="">
-                            <Link to="/" className="text-white mx-3 no-underline-link fa-2x">
+                            <Link to="/" className="text-white mx-3 no-underline-link fa-1x">
                             Copyright &copy; 2024
                             </Link>
                         </li>
@@ -40,16 +40,16 @@ const Footer = () => {
 
                     <ul className="list-unstyled mb-0">
                         <li className="">
-                            <Link to="https://www.facebook.com/profile.php?id=100050626959689" className="text-white mx-3 no-underline-link">
-                            <FontAwesomeIcon icon={faFacebook} size="2x"/>
+                            <Link to="https://www.facebook.com/profile.php?id=100050626959689" className="text-white mx-2 no-underline-link">
+                            <FontAwesomeIcon icon={faFacebook} size="1.5x"/>
                             </Link>
 
-                            <Link to="https://www.instagram.com/mdhrahman532/" className="text-white mx-3 no-underline-link">
-                            <FontAwesomeIcon icon={faInstagram} size="2x"/>  
+                            <Link to="https://www.instagram.com/mdhrahman532/" className="text-white mx-2 no-underline-link">
+                            <FontAwesomeIcon icon={faInstagram} />  
                             </Link>
 
-                            <Link to="https://twitter.com/mdhabibur123" className="text-white mx-3 no-underline-link">
-                            <FontAwesomeIcon icon={faTwitter} size="2x"/>   
+                            <Link to="https://twitter.com/mdhabibur123" className="text-white mx-2 no-underline-link">
+                            <FontAwesomeIcon icon={faTwitter} size="1x"/>   
                             </Link>
                         </li>
                     </ul>

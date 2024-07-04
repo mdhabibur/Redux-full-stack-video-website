@@ -75,7 +75,9 @@ const VideoDescription = ({video}) => {
 
     <p
         className="border-top"
-        style={{fontSize: '16px', marginTop: '5px', paddingTop: '10px'}}
+        style={{fontSize: '16px', marginTop: '5px', 
+            marginBottom: '15px', paddingTop: '10px',
+            paddingBottom: '15px'}}
     >
         {description}
     </p>
