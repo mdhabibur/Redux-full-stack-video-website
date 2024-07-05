@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "json-server --watch db_videos.json --port 9000"
+		"start": "npx json-server --watch db_videos.json --port 9000"
 	},
 	"keywords": [],
 	"author": "Mohammad Ali",
