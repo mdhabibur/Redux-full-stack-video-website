@@ -3,7 +3,7 @@ import {createApi, fetchBaseQuery} from '@reduxjs/toolkit/query/react'
 export const apiSlice = createApi({
     reducerPath: "videosApi",
     baseQuery: fetchBaseQuery({
-        baseUrl: 'http://localhost:9000'
+        baseUrl: 'https://redux-full-stack-video-website-shumit.onrender.com'
     }),
     //for cashing and revalidation
     tagTypes: ["Videos", "Video", "RelatedVideos"],
